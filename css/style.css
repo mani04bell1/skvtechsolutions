@@ -152,6 +152,9 @@ a:focus {
     display: flex;
     align-items: center;
     background: #ffffff;
+   /* position: fixed;
+    width: 100%;
+    top: 0;*/
 }
 
 .top-bar .logo {
@@ -222,7 +225,10 @@ a:focus {
     }
 }
 
-
+.nav-bar-logo{
+    width: 201px;
+    height: 82px;
+}
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
@@ -234,7 +240,7 @@ a:focus {
 .nav-bar.nav-sticky {
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 0; 
     left: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
     z-index: 999;
@@ -699,7 +705,7 @@ a:focus {
 
 .about .about-content ul li i {
     margin-right: 8px;
-    color: #E81C2E;
+    color: #39B972;
 }
 
 
