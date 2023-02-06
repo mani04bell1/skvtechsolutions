@@ -690,6 +690,7 @@ a:focus {
 
 .about .about-content {
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .about .about-content ul {
@@ -724,6 +725,7 @@ a:focus {
     display: flex;
     flex-direction: column;
     margin-bottom: 45px;
+    text-align: justify;
 }
 
 .service .service-item i {
@@ -872,7 +874,9 @@ a:focus {
 }
 
 .price .price-body {
-    padding: 0 0 20px 0;
+    /*padding: 0 0 20px 0;*/
+    text-align: left;
+    padding: 0px 2px 22px 20%;
 }
 
 .price .price-body ul {
